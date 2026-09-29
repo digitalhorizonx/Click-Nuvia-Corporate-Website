@@ -1,0 +1,4 @@
+import type {Metadata} from "next";
+import "./globals.css";
+export const metadata:Metadata={metadataBase:new URL("https://www.clicknuvia.com"),title:{default:"Click Nuvia | Customer Acquisition Systems",template:"%s | Click Nuvia"},description:"Click Nuvia builds advertising, lead-generation and digital marketing systems designed to turn attention into measurable customer opportunities.",alternates:{canonical:"/"},openGraph:{title:"Click Nuvia | Customer Acquisition Systems",description:"Advertising, lead generation, digital marketing and conversion systems built around measurable growth.",url:"https://www.clicknuvia.com",siteName:"Click Nuvia",type:"website"},robots:{index:true,follow:true}};
+export default function RootLayout({children}:{children:React.ReactNode}){return <html lang="en"><body>{children}</body></html>}
